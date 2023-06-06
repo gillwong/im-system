@@ -1,4 +1,4 @@
-module github.com/TikTokTechImmersion/assignment_demo_2023/http-server
+module github.com/gillwong/im-system/http-server
 
 go 1.18
 

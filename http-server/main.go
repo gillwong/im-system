@@ -5,14 +5,14 @@ import (
 	"log"
 	"time"
 
-	"github.com/TikTokTechImmersion/assignment_demo_2023/http-server/kitex_gen/rpc"
-	"github.com/TikTokTechImmersion/assignment_demo_2023/http-server/kitex_gen/rpc/imservice"
-	"github.com/TikTokTechImmersion/assignment_demo_2023/http-server/proto_gen/api"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/app/server"
 	"github.com/cloudwego/hertz/pkg/common/utils"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
 	"github.com/cloudwego/kitex/client"
+	"github.com/gillwong/im-system/http-server/kitex_gen/rpc"
+	"github.com/gillwong/im-system/http-server/kitex_gen/rpc/imservice"
+	"github.com/gillwong/im-system/http-server/proto_gen/api"
 	etcd "github.com/kitex-contrib/registry-etcd"
 )
 
