@@ -2,8 +2,8 @@
 package imservice
 
 import (
-	rpc "github.com/gillwong/im-system/rpc-server/kitex_gen/rpc"
 	server "github.com/cloudwego/kitex/server"
+	rpc "github.com/gillwong/im-system/rpc-server/kitex_gen/rpc"
 )
 
 // NewServer creates a server.Server with the given handler and options.

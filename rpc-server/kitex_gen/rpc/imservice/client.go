@@ -4,9 +4,9 @@ package imservice
 
 import (
 	"context"
-	rpc "github.com/gillwong/im-system/rpc-server/kitex_gen/rpc"
 	client "github.com/cloudwego/kitex/client"
 	callopt "github.com/cloudwego/kitex/client/callopt"
+	rpc "github.com/gillwong/im-system/rpc-server/kitex_gen/rpc"
 )
 
 // Client is designed to provide IDL-compatible methods with call-option parameter for kitex framework.

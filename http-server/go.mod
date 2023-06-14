@@ -6,6 +6,7 @@ require (
 	github.com/apache/thrift v0.13.0
 	github.com/cloudwego/hertz v0.6.1
 	github.com/cloudwego/kitex v0.5.2
+	github.com/gillwong/im-system/rpc-server v0.0.0-20230606075303-4de4a054a418
 	github.com/kitex-contrib/registry-etcd v0.1.0
 	google.golang.org/protobuf v1.28.1
 )
